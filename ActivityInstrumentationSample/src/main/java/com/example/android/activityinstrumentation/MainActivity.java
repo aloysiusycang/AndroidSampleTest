@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.activityinstrumentationTest;
+package com.example.android.activityinstrumentation;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
