@@ -16,6 +16,10 @@ apply plugin: 'android'
 dependencies {
     // Add the support lib that is appropriate for SDK 4
     compile "com.android.support:support-v4:18.0.+"
+
+    testLocalCompile 'junit:junit:4.10'
+    testLocalCompile 'org.mockito:mockito-core:1.9.5'
+
 }
 
 // The sample build uses multiple directories to
@@ -41,6 +45,29 @@ android {
         instrumentTest.java.srcDirs = ['tests/src']
     }
 }
+
+task localTest(type: Test, dependsOn: assemble) {
+
+    testClassesDir = sourceSets.testLocal.output.classesDir
+
+    android.sourceSets.main.java.srcDirs.each { dir ->
+
+        def buildDir = dir.getAbsolutePath().split('/')
+
+        buildDir = (buildDir[0..(buildDir.length - 4)] + ['build', 'classes', 'debug']).join('/')
+
+        sourceSets.testLocal.compileClasspath += files(buildDir)
+
+        sourceSets.testLocal.runtimeClasspath += files(buildDir)
+
+    }
+
+    classpath = sourceSets.testLocal.runtimeClasspath
+
+}
+
+
+check.dependsOn localTest
 
 
 
