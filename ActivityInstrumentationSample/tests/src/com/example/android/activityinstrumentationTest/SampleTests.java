@@ -14,14 +14,11 @@
  * limitations under the License.
  */
 
-package com.example.android.activityinstrumentation;
+package com.example.android.activityinstrumentationTest;
 
 import android.app.Activity;
 import android.test.ActivityInstrumentationTestCase2;
 import android.widget.Spinner;
-
-import com.example.android.activityinstrumentation.MainActivity;
-import com.example.android.activityinstrumentation.R;
 
 /**
  * This is a simple framework for a test of an Application.  See
