@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ActivityInstrumentation.iml" filepath="$PROJECT_DIR$/ActivityInstrumentation.iml" />
       <module fileurl="file://$PROJECT_DIR$/ActivityInstrumentationSample/ActivityInstrumentationSample.iml" filepath="$PROJECT_DIR$/ActivityInstrumentationSample/ActivityInstrumentationSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AndroidSampleTest.iml" filepath="$PROJECT_DIR$/AndroidSampleTest.iml" />
     </modules>
   </component>
 </project>
