@@ -40,6 +40,10 @@ android {
         instrumentTest.setRoot('tests')
         instrumentTest.java.srcDirs = ['tests/src']
     }
+
+    lintOptions {
+        abortOnError false
+    }
 }
 
 
