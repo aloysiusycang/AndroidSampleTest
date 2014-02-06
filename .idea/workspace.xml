@@ -84,7 +84,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ActivityInstrumentationSample/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.7343566" vertical-offset="143" max-vertical-offset="1035">
+            <state line="44" column="1" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.6103896" vertical-offset="143" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -1030,7 +1030,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ActivityInstrumentationSample/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.7343566" vertical-offset="143" max-vertical-offset="1035">
+        <state line="44" column="1" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.6103896" vertical-offset="143" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
