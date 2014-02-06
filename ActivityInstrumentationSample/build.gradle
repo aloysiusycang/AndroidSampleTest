@@ -41,9 +41,10 @@ android {
         instrumentTest.java.srcDirs = ['tests/src']
     }
 
-    lintOptions {
-        abortOnError false
-    }
+
+}
+lintOptions {
+    abortOnError false
 }
 
 
